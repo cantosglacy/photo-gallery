@@ -1,0 +1,85 @@
+*{  
+    box-sizing:
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+
+}
+
+.column{
+    flex: 1;
+    min-width: 300px;
+}
+.column img{
+    width: 100%;
+}
+
+.cupcake{
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+   ;
+    
+
+}
+
+.box{
+    flex: 1;
+    min-width: 300px;
+    padding: 10px 20px;
+}
+.box img{
+    width: 100%;
+}
+
+
+
+#header{display: flex;
+    flex-wrap: wrap;
+    
+    background-color: purple;
+  
+}
+
+.Logo{
+    float: left;
+    width: 20%;
+    margin-left: 30px;
+
+}
+.clear{
+    clear: both;
+}
+.menu{width: 70%;
+    margin-top:80px;
+  
+    float: right;
+}
+
+
+
+ul li{
+    list-style: none;
+    display:inline;
+    padding: 10px 20px;
+    
+}
+ul li a{
+    color: white;
+    font-size: 1.3em;
+text-decoration: none;}
+
+
+#banner{
+    background-image: url(images/cake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat    ;
+    height: 500px;   
+
+}
